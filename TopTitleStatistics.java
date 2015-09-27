@@ -127,6 +127,7 @@ public class TopTitleStatistics extends Configured implements Tool {
         @Override
         public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
             // TODO
+	    string line = value.toString().toLowerCase();
         }
     }
 
